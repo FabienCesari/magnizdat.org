@@ -46,7 +46,9 @@
 	<header>
 	  <h1>Signal processing engieer - developer</h1>
 	</header>
-	  <p>	    	  </p>
+	  <p>
+	    
+	  </p>
 	  <nav class="next-prev">
 	    <hr />
 	    <a class="next education" href="#education">Next</a>
@@ -92,7 +94,9 @@
     
     <!-- Parralax for background -->
     <div id="parralax_bg1">      
-      <!-- <img id="bg1-3" src="im/sky_ground.jpg" alt="cloud"/> -->
+      <img id="bg1-1" src="im/background_1.png" alt="cloud"/>
+      <img id="bg1-2" src="im/background_2.png" alt="cloud"/>
+      <img id="bg1-3" src="im/background_3.png" alt="cloud"/>
     </div>
     
     <!-- Parralax for midground -->

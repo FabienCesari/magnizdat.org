@@ -216,7 +216,7 @@ a.next:hover {
     top: 3270px;
 }
 
-/* foreground (ballons/landscape) */
+/* foreground  */
 #parallax-bg3 {
     z-index: 3;
     position: fixed;
@@ -248,7 +248,7 @@ a.next:hover {
     left: -85px;
 }
 
-/* midground (clouds) */
+/* midground  */
 #parallax-bg2 {
     z-index: 2;
     position: fixed;
@@ -283,7 +283,7 @@ a.next:hover {
     left: 890px;
 }
 
-/* background (clouds) */
+/* background  */
 #parallax-bg1 {
     z-index: 1;
     position: fixed;
@@ -295,22 +295,50 @@ a.next:hover {
 #bg1-1 {
     position: absolute;
     top: 85px;
-    left: -270px;
+    left: 0px;
 }
 #bg1-2 {
     position: absolute;
     top: 440px;
-    left: 795px;
+    left: 0px;
 }
 #bg1-3 {
     position: absolute;
     top: 900px;
-    left: -220px;
+    left: 0px;
 }
 #bg1-4 {
     position: absolute;
     top: 1020px;
-    left: 450px;
+    left: 0px;
+}
+
+body { 
+    background-color: grey;
+} 
+
+@media screen and (max-width:960px) {
+    body { 
+	background-color: red;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    body { 
+	background-color: orange;
+    }
+} 
+
+@media screen and (max-width: 550px) {
+    body { 
+	background-color: yellow;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    body { 
+	background-color: green;
+    }
 }
 
 
