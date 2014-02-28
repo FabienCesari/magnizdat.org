@@ -27,6 +27,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
+
 body {
     line-height: 1;
 }
@@ -41,18 +42,9 @@ q:before, q:after {
     content: '';
     content: none;
 }
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
 
 /* Extended base styles (site specific)
  *****************************************************************/
-
-html { 
-    overflow-y: scroll; /* always force a scrollbar in non-IE */
-}
-
 body {
     background: #ffffff;        
     //font-family: font-family: 'Source Code Pro', sans-serif;
@@ -96,11 +88,11 @@ p {
 *****************************************************************/
 
 hr {
-	margin: 0;
-	border: none;
-	border-top: 1px solid #3b3b3b;
-	border-bottom: 1px solid #3b3b3b;
-	height: 3px;
+    margin: 0;
+    border: none;
+    border-top: 1px solid #3b3b3b;
+    border-bottom: 1px solid #3b3b3b;
+    height: 3px;
 }
 
 /* Page structure
@@ -133,8 +125,23 @@ hr {
     font-weight: bold;
 }
 
-#work-exp{
-    margin-left:20px;
-    width: 400px;
-    length: 50px;
+.box {
+	background-color: white; 
+	width: 500px; 
+	height: auto; 
+	margin: 20px 0 10px 10px; 
+}
+.text {
+    padding:10px 10px 10px 13px;    
+    font-family: 'Source Code Pro', sans-serif;    
+    font-size: 13px;
+    font-weight: 400;        
+    //hyphens: auto
+    letter-spacing: 2px;
+    color:#444;
+}
+
+.text a, a:hover, a:active {
+    text-decoration: none;
+    color:#444;
 }
