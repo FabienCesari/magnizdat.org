@@ -14,7 +14,7 @@
     <div id="wrapper">
       <header id="branding">
 	<h1>Fabien Cesari</h1>
-	<h2> Engineer, Musician, developer, digital craftsman.</h2>
+	<h2> digital craftsman.</h2>
       </header>
     </div>
 
