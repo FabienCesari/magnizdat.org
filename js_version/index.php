@@ -6,6 +6,7 @@
     <meta name="description" content="Fabien Cesari's online CV and portfolio" />
     <link rel="stylesheet" media="all" href="css/style.css" />    
     <script src="js/processing-1.4.1.min.js"></script>    
+    <script src="js/jquery-1.11.0.min.js"></script>    
     <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'></script>
   </head>
   
@@ -42,7 +43,11 @@
 	</p> 	
       </div>	   
     </div>        
-    <canvas id="canvas1" width="200" height="200"></canvas>  
+    
+    <div id="canvas_body">      
+      <canvas id="anim_back" width="100%" height="100%">
+      </canvas>      
+    </div>
     <script src="js/background.js"></script>    
   </body>
 </html>

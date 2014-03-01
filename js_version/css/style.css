@@ -136,7 +136,7 @@ hr {
     font-family: 'Source Code Pro', sans-serif;    
     font-size: 13px;
     font-weight: 400;        
-    //hyphens: auto
+    hyphens: auto
     letter-spacing: 2px;
     color:#444;
 }
@@ -144,4 +144,11 @@ hr {
 .text a, a:hover, a:active {
     text-decoration: none;
     color:#444;
+}
+
+#canvas_body{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: -1;
 }
