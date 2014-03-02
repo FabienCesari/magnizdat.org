@@ -5,7 +5,7 @@ var main_color = 200;
 
 function sketchProc(processing) 
 {	
-    var nbr_of_circles = Math.ceil(processing.random(100));
+    var nbr_of_circles = Math.ceil(processing.random(10,100));
     var min_size = 20;
     var max_size = 100;	
     var point_size = 2;
@@ -99,7 +99,7 @@ function sketchProc(processing)
 		r1 = circles_arr[ind][2] / 2;
 		r2 = circles_arr[k][2] / 2;
 		
-		processing.stroke(0,0,200);
+		processing.stroke(255,100,100);
 		processing.noFill();
 		
 		

@@ -60,16 +60,26 @@ h2 {
     color: #ACC7;
 }
 
-a, a:link,
-a:active,
+h3 {
+    color: #ACC7;
+}
+
+h4 {
+    color: #ACC7;
+}
+
+a:link {
+    text-decoration: none    
+}
 a:visited {
-    -webkit-transition: color 0.25s ease-out;
-    -moz-transition: color 0.25s ease-out;
-    -o-transition: color 0.25s ease-out;
-    transition: color 0.25s ease-out;
-    color:#454E7A;
-    outline: yes;
-    text-decoration:none;
+    text-decoration: none    
+}
+
+a:active {text-decoration: none}
+
+a:hover {
+    text-decoration: underline; 
+    color: black;
 }
 
 img { 
@@ -127,26 +137,45 @@ hr {
     font-weight: bold;
 }
 
+.links_1 {          
+    position:absolute;
+    top: 0;
+    right: 0;
+    display:inline-block;
+}
+
+.links_2 {    
+    position:absolute;
+    top: 0;
+    right: 50px;
+    display:inline-block;
+}
+
 .box {
     background-color: white; 
     width: 700px; 
     height: auto; 
-    margin: 20px 0 10px 10px; 
+    margin: 10px 0 10px 10px; 
+}
+
+#footer{
+}
+
+.credit {
+    position: absolute;
+    bottom:0;
+    height: auto; 
+    margin: 10px 0 10px 10px; 
 }
 
 .text {
-    padding:10px 10px 10px 13px;    
+    padding:10px 10px 10px 10px;    
     font-family: 'Source Code Pro', sans-serif;    
     font-size: 14px;
     font-weight: 400;        
-    hyphens: auto
-    letter-spacing: 2px;
-    color:#444;
-}
-
-.text a, a:hover, a:active {
-    text-decoration: none;
-    color:#444;
+    //hyphens: auto
+    //letter-spacing: 2px;
+    //color:#444;
 }
 
 #canvas_body{
