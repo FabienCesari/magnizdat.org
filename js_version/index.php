@@ -7,7 +7,8 @@
     <link rel="stylesheet" media="all" href="css/style.css" />    
     <script src="js/processing-1.4.1.min.js"></script>    
     <script src="js/jquery-1.11.0.min.js"></script>    
-    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'></script>
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'></script>    
+    <link rel="shortcut icon" href="im/ico.png" type="image/x-icon"/>
   </head>
   
   <body>        
