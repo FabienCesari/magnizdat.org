@@ -29,7 +29,7 @@
     
       <div class="box">
 	<p class="text">	       	
-	  -> Musician, developer, engineer in signal processing and electronic from <a href="http://www.ensea.fr"><i>l'Ecole Nationale Superieur de l'Electronique et de ses Applications (ENSEA)</i></a> in Paris, France. I have been working for companies such as  <a href="http://www.voxler.fr/"> <i>Voxler Games </i></a> or <a href="http://www.arkamys.com/home.php"> <i>Arkamys</i></a>. For the past year I worked at <a href="http://www.ircam.fr/"> <i>L'Institut de Recherche et Coordination Acoustique / Musique (IRCAM) </i></a>in Paris, France.	
+	  -> Musician, developer, engineer in signal processing and electronics from <a href="http://www.ensea.fr"><i>l'Ecole Nationale Superieur de l'Electronique et de ses Applications (ENSEA)</i></a> in Paris, France. I have been working for companies such as  <a href="http://www.voxler.fr/"> <i>Voxler Games </i></a> and <a href="http://www.arkamys.com/home.php"> <i>Arkamys</i></a>. For the past year I worked at <a href="http://www.ircam.fr/"> <i>L'Institut de Recherche et Coordination Acoustique / Musique (IRCAM) </i></a>in Paris, France.	
       </p>	
     </div>
     
@@ -41,13 +41,13 @@
     
     <div class="box">	
       <p class="text">		      
-	-> I am currently looking for employments opportunities in San Francisco and in the bay area, I am eager to discover new technologies and increasemy set  of skills, and I am very open to new fields of applications. I worship interdisciplinarity and I think that creativity dosen't come from a spontaneous generation.
+	-> I am currently looking for employment opportunities in San Francisco and in the Bay Area. I am eager to discover new technologies and augment my skill set, and I am very open to new fields of applications. I am devoted to interdisciplinarity and I look forward to participating in like-minded dialogues, characteristic of the technology community in the region.  
       </p>		
     </div>
     
     <div class="box">	
       <p class="text">	    	
-	-> I will be happy to give you more informations about myself, so please <a href = "mailto:fabien.cesari@magnizdat.org" >contact me</a> or download my full <a href="docs/FabienCesari_CV.pdf">Curriculum here.</a>
+	-> I am happy to provide more information about myself, so please <a href = "mailto:fabien.cesari@magnizdat.org" >contact me</a> or download my full <a href="docs/FabienCesari_CV.pdf">Curriculum here.</a>
       </p> 	
     </div>	       
     
