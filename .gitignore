@@ -1,3 +1,5 @@
+sitemap.*
+*~
 *.php~
 *.js~
 *.html~
