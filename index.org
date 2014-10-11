@@ -1,12 +1,21 @@
-#+TITLE:       magnizdat.org
-#+SETUPFILE: ~/.emacs.d/org-templates/site-setup.org
-#+STYLE: <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-#+DESCRIPTION: Magnizdat.org
+#+TITLE: magnizdat.org
+#+SETUPFILE: ../org-templates/site-setup.org
 
-** 
+
+* Tasks list							   :noexport:
+** TODO setup the agenda.
+** TODO Link the agenda to gmail and iphone.
+** TODO Add css style to site project:   
+** TODO Include the javascript to the project. 
+** TODO See if it's still possible to have the dynamic background. 
 
 
 * About:
+  #+BEGIN_ASIDE
+  Lorem ipsum
+  #+END_ASIDE
+  
+
 ** 
    Musician, developer, engineer in signal processing and electronics 
    from [[http://www.ensea.fr][l'Ecole Nationale Superieur de l'Electronique et de ses Applications (ENSEA)]] 
