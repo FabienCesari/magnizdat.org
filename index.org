@@ -1,9 +1,8 @@
-#+TITLE: magnizdat.org
+#+TITLE: About
 #+SETUPFILE: ../org-templates/site-setup.org
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.css" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 #+INFOJS_OPT: view:nil toc:nil path: 'js/org-info.js'
-
 
 * Tasks list							   :noexport:
 
@@ -11,13 +10,15 @@
    CLOSED: [2014-10-13 Mon 12:31]
 ** DONE Include the javascript to the project. 
    CLOSED: [2014-10-13 Mon 12:31]
+   
+
 ** TODO Customize the style of the site. 
 ** TODO Create a blog page and a home page. 
 ** TODO See if it's still possible to have the dynamic background. 
 
 
-* About:  
 
+* 
 ** 
    Musician, developer, engineer in signal processing and electronics 
    from [[http://www.ensea.fr][l'Ecole Nationale Superieur de l'Electronique et de ses Applications (ENSEA)]] 
@@ -40,6 +41,6 @@
    in like-minded dialogues, characteristic of the technology community in the region.  
 ** 
    I am happy to provide more information about myself, 
-   so please [[fabien.cesari@magnizdat.org][contact me]] download my full [[docs/FabienCesari_CV.pdf][Curriculum here]].
+   so please [[fabien.cesari@magnizdat.org][contact me]] download my full [[file:docs/FabienCesari_CV.pdf][Curriculum here]].
 
    
