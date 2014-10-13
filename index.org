@@ -1,8 +1,11 @@
-#+TITLE: About
-#+SETUPFILE: ../org-templates/site-setup.org
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-#+INFOJS_OPT: view:nil toc:nil path: 'js/org-info.js'
+#+TITLE: Index
+#+SETUPFILE: site-setup.org
+
+#+INCLUDE: footer.org
+
+
+
+  
 
 * Tasks list							   :noexport:
 
@@ -18,29 +21,3 @@
 
 
 
-* 
-** 
-   Musician, developer, engineer in signal processing and electronics 
-   from [[http://www.ensea.fr][l'Ecole Nationale Superieur de l'Electronique et de ses Applications (ENSEA)]] 
-   in Paris, France. I have been working for companies such as  [[http://www.voxler.fr/][Voxler Games]] and [[http://www.arkamys.com/home.php][Arkamys]]. 
-   For the past year I worked at [[http://www.ircam.fr/"][L'Institut de Recherche et Coordination Acoustique / Musique (IRCAM)]] 
-   in Paris, France.	   
-
-** 
-   My music is largely based on improvisation, incorporating multiple facets of electroacoustic
-   music such as digital and analogue electronic experimentation, collage, tape music, field 
-   recordings and the use of recorded music as a raw material. For this purpose, I design 
-   hardware and software tools. I also create automatic compositions based on algorithms that 
-   simulate guided random walks. While my work is undeniably artistically-motivated, my process 
-   is nevertheless influenced by, and in some instances, dependent on my 
-   technical and scientific foundations.
-** 
-   I am currently looking for employment opportunities in San Francisco and in the Bay Area. 
-   I am eager to discover new technologies and augment my skill set, and I am very open to new 
-   fields of applications. I am devoted to interdisciplinarity and I look forward to participating 
-   in like-minded dialogues, characteristic of the technology community in the region.  
-** 
-   I am happy to provide more information about myself, 
-   so please [[fabien.cesari@magnizdat.org][contact me]] download my full [[file:docs/FabienCesari_CV.pdf][Curriculum here]].
-
-   
