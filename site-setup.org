@@ -15,10 +15,13 @@
 #+HTML_HEAD_EXTRA:
 #+HTML_LINK_HOME:
 
-
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="css/style_extra.css" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="css/old_style.css" />
 #+INFOJS_OPT: view:nil toc:nil path: 'js/org-info.js'
+#+STYLE: <SCRIPT SRC="js/bootstrap.min.js"></SCRIPT>
+#+STYLE: <SCRIPT SRC="js/processing-1.4.1.min.js"></SCRIPT>
+#+STYLE: <SCRIPT SRC="js/background.js"></SCRIPT>
 
 #+HTML_HEAD: <link rel="stylesheet" href="css/worg.css" type="text/css" media="screen" />
+ 
+

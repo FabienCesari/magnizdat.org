@@ -1,12 +1,7 @@
 #+TITLE: Index
 #+SETUPFILE: site-setup.org
 
-#+INCLUDE: footer.org
-
-
-
   
-
 * Tasks list							   :noexport:
 
 ** DONE Add css style to site project:   
@@ -14,10 +9,14 @@
 ** DONE Include the javascript to the project. 
    CLOSED: [2014-10-13 Mon 12:31]
    
+   
+ ** DONE Customize the style of the site. 
+   CLOSED: [2014-10-13 Mon 14:15]
+** DONE Create a blog page and a home page. 
+   CLOSED: [2014-10-13 Mon 14:15]
 
-** TODO Customize the style of the site. 
-** TODO Create a blog page and a home page. 
-** TODO See if it's still possible to have the dynamic background. 
+** TODO create a banner with links
+** TODO Display the processing on the front page.
 
 
 

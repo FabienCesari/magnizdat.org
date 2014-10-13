@@ -1,5 +1,8 @@
-#+TITLE: About
+#+TITLE: 
 #+SETUPFILE: site-setup.org
+
+* 
+  #+INCLUDE: navbar.org  
 
 * Tasks list							   :noexport:
 
@@ -13,9 +16,7 @@
 ** TODO Create a blog page and a home page. 
 ** TODO See if it's still possible to have the dynamic background. 
 
-
-
-* 
+* About 
 ** 
    Musician, developer, engineer in signal processing and electronics 
    from [[http://www.ensea.fr][l'Ecole Nationale Superieur de l'Electronique et de ses Applications (ENSEA)]] 
