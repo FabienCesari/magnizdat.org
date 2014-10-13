@@ -1,7 +1,7 @@
-#+TITLE: Index
+#+TITLE: 
 #+SETUPFILE: site-setup.org
+#+INCLUDE: navbar.org  
 
-  
 * Tasks list							   :noexport:
 
 ** DONE Add css style to site project:   

@@ -1,6 +1,9 @@
 #+TITLE: 
 #+SETUPFILE: site-setup.org
+
+* 
 #+INCLUDE: navbar.org  
+
 
 * 
 ** Blog

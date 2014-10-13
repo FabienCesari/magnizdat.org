@@ -16,7 +16,8 @@
 #+HTML_LINK_HOME:
 
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="css/old_style.css" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
 #+INFOJS_OPT: view:nil toc:nil path: 'js/org-info.js'
 #+STYLE: <SCRIPT SRC="js/bootstrap.min.js"></SCRIPT>
 #+STYLE: <SCRIPT SRC="js/processing-1.4.1.min.js"></SCRIPT>
