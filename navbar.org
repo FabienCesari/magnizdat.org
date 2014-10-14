@@ -1,7 +1,13 @@
-
 #+begin_html
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
+      <div class="links_1">
+        <a href="https://github.com/FabienCesari"> <img src="im/github_logo.png" width="40" height="40" alt="Github"/> </a>
+      </div>
+      
+      <div class="links_2">
+        <a href="https://twitter.com/magnizdat"> <img src="im/twitter-256.png" width="40" height="40" alt="Twitter"></a>
+      </div>    
       <a class="brand" href="index.html">Magnizdat.org</a>
       <ul class="nav">
         <li><a href="about.html">About Me</a></li>

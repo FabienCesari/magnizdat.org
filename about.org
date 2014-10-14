@@ -4,8 +4,7 @@
 * 
   #+INCLUDE: navbar.org  
 
-
-* Tasks list							   :noexport:
+* Tasks list 							   :noexport:
 
 ** DONE Add css style to site project:   
    CLOSED: [2014-10-13 Mon 12:31]

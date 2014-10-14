@@ -4,7 +4,6 @@
 * 
 #+INCLUDE: navbar.org  
 
-
 * 
 ** Blog
   #+BEGIN_HTML
