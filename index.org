@@ -35,6 +35,6 @@
   #+END_HTML 
   
   #+BEGIN_CREDITS
-  Copyright Fabien Cesari - 2014 - [[www.magnizdat.org]]
+  Copyright Fabien Cesari - 2014 - [[http://www.magnizdat.org][www.magnizdat.org]] - This webstie was made with Emacs Org-mode. The source code is [[http://github.com/FabienCesari/magnizdat.org][here]]
   #+END_CREDITS
   
