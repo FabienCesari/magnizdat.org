@@ -129,3 +129,18 @@ disqus_thread {
     left:0;
     z-index: -1;
 }
+
+.box {
+    background-color: white;
+    width: 700px;
+    height: auto;
+    margin: 10px 0 10px 10px;
+}
+
+.credits {
+    position: absolute;
+    bottom:0;
+    height: auto;
+    margin: 10px 0 10px 10px;
+}
+

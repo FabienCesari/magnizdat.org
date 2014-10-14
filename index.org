@@ -2,7 +2,6 @@
 #+SETUPFILE: site-setup.org
 #+INCLUDE: navbar.org  
 
-
 * Tasks list 							   :noexport:
 
 ** DONE Add css style to site project:   
@@ -16,17 +15,26 @@
 ** DONE Create a blog page and a home page. 
    CLOSED: [2014-10-13 Mon 14:15]
 
-** TODO create a banner with links
-** TODO Display the processing on the front page.
+** DONE create a banner with links
+   CLOSED: [2014-10-13 Mon 17:35]
+** DONE Display the processing on the front page.
+   CLOSED: [2014-10-13 Mon 17:35]
+   
+** TODO Push the new version on the server with tramp.
+    
 
 * 
   #+BEGIN_HTML
     <script src="js/jquery-1.11.1.min.js"></script> 
-    <script src="js/processing-1.4.1.min.js"></script> 
-    
+    <script src="js/processing-1.4.1.min.js"></script>   
     <div id="canvas_body">      
       <canvas id="anim_back" width="100%" height="100%">
       </canvas>      
     </div>
     <script src="js/background.js"></script>          
   #+END_HTML 
+  
+  #+BEGIN_CREDITS
+  Copyright Fabien Cesari - 2014 - [[www.magnizdat.org]]
+  #+END_CREDITS
+  
