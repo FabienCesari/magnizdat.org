@@ -1,7 +1,14 @@
-#+TITLE: 
-#+SETUPFILE: site-setup.org
-#+INCLUDE: navbar.org  
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+title: About
+layout: default
+---
+#+END_HTML
    
+
 * About 
 ** 
    Musician, developer, engineer in signal processing and electronics 

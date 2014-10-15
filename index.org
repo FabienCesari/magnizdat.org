@@ -8,6 +8,7 @@ layout: default
 ---
 #+END_HTML
 
+
 * Tasks list                                                       :noexport:
 
 ** DONE Add css style to site project:   
@@ -29,18 +30,7 @@ layout: default
 ** TODO Push the new version on the server with tramp.
     
 
-* 
-  #+BEGIN_HTML
-    <script src="js/jquery-1.11.1.min.js"></script> 
-    <script src="js/processing-1.4.1.min.js"></script>   
-    <div id="canvas_body">      
-      <canvas id="anim_back" width="100%" height="100%">
-      </canvas>      
-    </div>
-    <script src="js/background.js"></script>          
-  #+END_HTML 
-  
-  #+BEGIN_CREDITS
-  Copyright Fabien Cesari - 2014 - [[http://www.magnizdat.org][www.magnizdat.org]] - This webstie was made with Emacs Org-mode. The source code is [[http://github.com/FabienCesari/magnizdat.org][here]]
+*   
+  #+BEGIN_CREDITS  
   #+END_CREDITS
   
