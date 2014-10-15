@@ -1,8 +1,14 @@
-#+TITLE: 
-#+SETUPFILE: site-setup.org
-#+INCLUDE: navbar.org  
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+title: Magnizdat.org
+layout: default
+---
+#+END_HTML
 
-* Tasks list 							   :noexport:
+* Tasks list                                                       :noexport:
 
 ** DONE Add css style to site project:   
    CLOSED: [2014-10-13 Mon 12:31]

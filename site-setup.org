@@ -14,12 +14,3 @@
 #+HTML_HEAD:
 #+HTML_HEAD_EXTRA:
 #+HTML_LINK_HOME:
-
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-#+HTML_HEAD_EXTRA: <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-
-
-#+INFOJS_OPT: view:nil toc:nil path: 'js/org-info.js'
-
-#+STYLE: <SCRIPT SRC="js/bootstrap.min.js"></SCRIPT>
-#+HTML_HEAD: <link rel="stylesheet" href="css/worg.css" type="text/css" media="screen" />
