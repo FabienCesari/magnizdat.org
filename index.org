@@ -6,6 +6,7 @@
 title: Magnizdat.org
 layout: default
 ---
+{% include sidebar.html %} 
 #+END_HTML
 
 
@@ -27,10 +28,6 @@ layout: default
 ** DONE Display the processing on the front page.
    CLOSED: [2014-10-13 Mon 17:35]
    
-** TODO Push the new version on the server with tramp.
-    
+** TODO Push the new version on the server with tramp.    
 
-*   
-  #+BEGIN_CREDITS  
-  #+END_CREDITS
   
