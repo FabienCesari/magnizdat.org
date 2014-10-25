@@ -1,0 +1,20 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+title: Welcome
+layout: default
+---
+#+END_HTML
+
+* First post.
+This is the first post of this site, and I am still not sure of it's utility. 
+One thing I know is that it will be useful at least for me, to learn by 
+doing and to keep track of what I learn. 
+
+** Many different interests.
+
+ I do have many different interrests in a lot of different fields of engineering and 
+ I want to explore and learn. So that is also one reason of why this place exists. 
+

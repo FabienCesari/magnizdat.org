@@ -1,0 +1,45 @@
+#+OPTIONS:    H:3 num:nil toc:nil \n:nil ::t |:t ^:{} -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
+#+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate hideblocks
+#+TAGS:       Write(w) Update(u) Fix(f) Check(c) noexport(n)
+#+TITLE:      Kepping track of stuffs
+#+AUTHOR:     Fabien Cesari
+#+EMAIL:      fabien.cesari[at]gmail[dot]com
+#+LANGUAGE:   en
+
+* Projects To Do list: 
+** Website: 
+*** DONE Using git to deploy the site. 
+    CLOSED: [2014-10-18 Sat 15:42]        
+*** TODO add an "Hire Me" tab
+    :PROPERTIES:
+    :ID:       1C304D37-50C2-4CF6-8A2F-44C633ECCF0B
+    :END: 
+*** TODO Make the site mobile friendly
+    :PROPERTIES:
+    :ID:       267A6031-0AB4-447D-86F4-E2F0AFFB4157
+    :END: 
+*** TODO Design new backgroung animations and pick one randomly when the page load.
+    :PROPERTIES:
+    :ID:       DA53FD5B-5FAC-4BE0-8178-7CEBE62C3EA4
+    :END:
+
+** Machine Learing  / Data
+*** TODO Take the week 3 class and do assignement.
+    :PROPERTIES:
+    :ID:       B0CA8E6B-4B8A-48C1-A9A4-4083E7067E42
+    :END: 
+*** TODO Code the aglorithms in C++ create a machine learning library.
+    :PROPERTIES:
+    :ID:       E1E55D8B-8742-4D8F-9E59-856B732E384B
+    :END:
+
+** Job search
+*** TODO Work on the interview material (mostly C++, signal processing)
+    :PROPERTIES:
+    :ID:       6D4A4AF8-68BA-4429-87A4-0D31E578CE61
+    :END:
+*** TODO finding a job.
+    :PROPERTIES:
+    :ID:       9BD14B55-C845-4EF2-A27D-C68D5F14E033
+    :END: 
+

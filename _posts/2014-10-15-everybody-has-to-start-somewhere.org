@@ -1,0 +1,20 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+BEGIN_HTML
+---
+title: Everybody has to start somewhere
+layout: default
+---
+#+END_HTML
+
+* A way to react.
+The other day I got my ass kicked during a fairly easy and short technical screening for a developer position. 
+The question was really not hard but I got stuck and the stress wasn't helping my focus. So since the whole 
+purpose me posting  here is to keep track of what I do in order to get better at what I do (and also finding a job).
+
+** Interview process. 
+
+Technical screenings are a pretty simple concept, you get a phone call from an engineer and you got asked some technical questions. 
+Sometimes it's just questions, and sometimes you have an online code editor. 
+

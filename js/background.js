@@ -5,10 +5,10 @@ var main_color = 200;
 
 function sketchProc(processing) 
 {	
-    var nbr_of_circles = Math.ceil(processing.random(10,100));
-    var min_size = 20;
-    var max_size = 100;	
-    var point_size = 2;
+    var nbr_of_circles = Math.ceil(processing.random(1,50));
+    var min_size = 10;
+    var max_size = 50;	
+    var point_size = 1;
     var ds = 4;
     var lockedCircle;
     var lockedOffsetX;
@@ -20,31 +20,11 @@ function sketchProc(processing)
 	circles_arr[i] = new Array(5);
     }	
     
-    processing.mousePressed =function() 
-    {	    
-	for (var j = 0; j < nbr_of_circles; j++) 
-	{		
-	    if (processing.sq(circles_arr[j][0] - processing.mouseX) + processing.sq(circles_arr[j][1] - processing.mouseY) < processing.sq(circles_arr[j][2]/2)) 
-	    {		 
-		lockedCircle = j;
-		lockedOffsetX = processing.mouseX - circles_arr[j][0];
-		lockedOffsetY = processing.mouseY - circles_arr[j][1];		    
-		dragging = 1;
-		break;
-	    }
-	}
-    }
-    
-    processing. mouseReleased = function() 
-    {	
-	dragging = 0;
-    }
-    
+    //Init the circles
     processing.setup = function()
     {
-	processing.frameRate(60);
-	processing.size(win_width,win_height);
-	//processing.strokeWeight(1);
+	processing.frameRate(25);
+	processing.size(win_width,win_height);	
 	for(var ind = 0; ind < nbr_of_circles; ind++)
 	{ 
 	    circles_arr[ind][0] = processing.random(win_width);
@@ -54,13 +34,14 @@ function sketchProc(processing)
 	    circles_arr[ind][4] = processing.random(-.12,.12);		
 	}	  
     }
-    
+
+    //Process for each circle.
     processing.draw = function() 
     {
 	processing.background(200);	
 	for(var ind = 0; ind < nbr_of_circles; ind++)
 	{
-	    //processing.noStroke();
+	    processing.noStroke();
 	    var diametre = circles_arr[ind][2];
 	    var radius = diametre / 2;
 	    
@@ -88,7 +69,8 @@ function sketchProc(processing)
 	    
 	    for (var k=0;k< nbr_of_circles;k++) 
 	    {		    		    
- 		var d = processing.dist(circles_arr[ind][0],circles_arr[ind][1],circles_arr[k][0],circles_arr[k][1])		    		    		    
+ 		
+		var d = processing.dist(circles_arr[ind][0],circles_arr[ind][1],circles_arr[k][0],circles_arr[k][1])		    		    		    
 		var base,h;
 		var px,py,q1x,q1y,q2x,q2y;
 		
@@ -101,8 +83,7 @@ function sketchProc(processing)
 		
 		processing.stroke(255,100,100);
 		processing.noFill();
-		
-		
+				
 		//Checking if the circles intersects;		    
 		if(d < (circles_arr[ind][2] + circles_arr[k][2])/2)
 		{		
@@ -126,13 +107,14 @@ function sketchProc(processing)
 		    processing.ellipse(q1x,q1y,point_size,point_size);
 		    processing.ellipse(q2x,q2y,point_size,point_size);
 		    
-		    //processing.line(q1x,q1y,q2x,q2y);
+		    //processing.line(q1x,q1y);
 		    //processing.line(c1x,c1y,c2x,c2y);
-		    //processing.line(q1x,q1y,c2x,c2y);
+		    //processing.line(px,py,c2x,c2y);
 		    
 		    processing.noFill();
-		}    
+		    }    
 		
+
 	    }//end
 	    
 	    processing.noStroke();      		
@@ -142,5 +124,7 @@ function sketchProc(processing)
 }    
 
 // attaching the sketchProc function to the canvas
-var canvas = document.getElementById("anim_back");
-var processingInstance = new Processing(canvas, sketchProc);
+if(win_width >= 480){
+    var canvas = document.getElementById("anim_back");
+    var processingInstance = new Processing(canvas, sketchProc);
+}

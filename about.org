@@ -1,6 +1,6 @@
 #+STARTUP: showall indent
 #+STARTUP: hidestars
-#+OPTIONS: toc:nil ':t *:t -:t ::t <:t :t
+#+OPTIONS: toc:nil num:nil
 #+BEGIN_HTML
 ---
 title: About
@@ -19,7 +19,6 @@ of this process is that you have to be sharp all the times on a very large span
 of technical skills. So to avoid surprises and be "interview ready" I started studying 
 old and new stuffs. So this website is here to keep track of everything, and also provide
 support for my memory and limit the studying time before and interview.
-
       
 * Fabien Cesari
 
